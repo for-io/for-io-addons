@@ -1,0 +1,16 @@
+{
+  "name": "for-io-addons",
+  "version": "1.0.0",
+  "description": "Addons for code generation in For.io Studio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/for-io/for-io-addons/issues"
+  },
+  "homepage": "https://github.com/for-io/for-io-addons#readme",
+  "devDependencies": {
+    "mailgun-js": "^0.22.0"
+  }
+}
