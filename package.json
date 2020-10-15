@@ -12,11 +12,7 @@
   "homepage": "https://github.com/for-io/for-io-addons#readme",
   "devDependencies": {
     "@sendgrid/mail": "^7.3.0",
-    "aws-sdk": "^2.771.0",
     "mailgun-js": "^0.22.0",
     "mandrill-api": "^1.0.45"
-  },
-  "dependencies": {
-    
   }
 }
