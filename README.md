@@ -4,3 +4,4 @@ Addons for code generation in For.io Studio
  - Mailgun
  - Mandril
  - Sendgrid
+ - Amazon SES
