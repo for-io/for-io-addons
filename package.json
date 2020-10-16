@@ -15,8 +15,5 @@
     "mailgun-js": "^0.22.0",
     "mandrill-api": "^1.0.45",
     "aws-sdk": "^2.772.0"
-  },
-  "dependencies": {
-   
   }
 }
