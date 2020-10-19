@@ -7,7 +7,7 @@ exports['SINGLETON mail'] = (config) => {
     // Set the sdk 
     AWS.config.update({
         region: config.AWSSES_REGION,
-        accessKeyId: config.config.AWSSES_KEY,
+        accessKeyId: config.AWSSES_KEY,
         secretAccessKey: config.AWSSES_SECRET
     });
 
