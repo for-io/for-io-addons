@@ -31,8 +31,8 @@ exports['SINGLETON upload'] = (config) => {
     async function uploadFile(msg) {
         const fileContent =  await readFile(msg.filePath);
         const params = {
-            Bucket: bucketName,
-            Key: fileName, // File name you want to save as in S3
+            Bucket: msg.bucketName,
+            Key: msg.fileName, // File name you want to save as in S3
             Body: fileContent
         };
         await upload(params)
